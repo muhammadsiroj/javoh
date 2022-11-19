@@ -1,0 +1,25 @@
+@media(max-width:1200px){
+    .nav_cotant{
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .dis_header_div{
+        width: 800px;
+        margin: 0 auto;
+        gap: 70px;
+    }
+    .d{
+        width: 150px;
+        height: 70px;
+    }
+}
+
+@media(max-width:1200px){
+    .nav_dis{
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+
+}

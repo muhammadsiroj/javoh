@@ -1,0 +1,89 @@
+@import url(media.css);
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body{
+    background-color: aqua;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.nav_h1{
+    font-size: 30px;
+    color: white;
+    text-shadow: red;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav_li{
+    font-size: 15px;
+    color: white;
+    text-shadow: red;
+}
+
+.nav_button{
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: white;
+    border-color: red;
+    font-size: 18px;
+    color: red;
+}
+
+.nav_cotant{
+    padding: 20px 0;
+    background-color: aqua;
+}
+
+.nav_dis{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bulut{
+    width: 400px;
+    height: 200px;
+}
+
+.d{
+    width: 200px;
+    height: 90px;
+}
+
+.header_p{
+    color: white;
+    width: 200px;
+    font-size: 18px;
+}
+
+.dis_header_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.header_span{
+    font-size:20px ;
+    color:tomato;
+}
+.header_span_2{
+    font-size:20px ;
+    color:darkgreen;
+}
